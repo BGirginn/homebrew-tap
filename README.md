@@ -6,8 +6,11 @@ Homebrew Cask distribution for [ClipboardHistory](https://github.com/BGirginn/Cl
 
 ```sh
 brew tap BGirginn/tap
+brew trust BGirginn/tap
 brew install --cask clipboardhistory
 ```
+
+Homebrew 6 requires explicit trust for third-party taps. If `/Applications/ClipboardHistory.app` was installed manually, quit ClipboardHistory and move the existing app bundle out of `/Applications` before installing the Cask. Homebrew will not overwrite an unmanaged application bundle; clipboard history stored under Application Support is preserved.
 
 ClipboardHistory requires an Apple silicon Mac running macOS 14 Sonoma or later.
 

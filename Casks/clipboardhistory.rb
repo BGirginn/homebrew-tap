@@ -1,6 +1,6 @@
 cask "clipboardhistory" do
-  version "1.0.0-beta.3"
-  sha256 "48f3c8ecf1400a24730053d64e81a8c5f076fca12060059e25526032cee2e7b0"
+  version "1.0.0-beta.4"
+  sha256 "fbe5ed87d59a975d4c42b1ffb9d62490cec98d9856d736a5c71f62e48691298e"
 
   url "https://github.com/BGirginn/ClipboardHistory/releases/download/v#{version}/ClipboardHistory-#{version}-arm64.zip"
   name "ClipboardHistory"

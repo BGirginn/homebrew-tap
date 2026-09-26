@@ -1,6 +1,6 @@
 # BGirginn Homebrew Tap
 
-Homebrew Cask distribution for [ClipboardHistory](https://github.com/BGirginn/ClipboardHistory).
+Homebrew Cask distribution for [CoreDeck](https://github.com/BGirginn/ClipboardHistory). The legacy `clipboardhistory` Cask token keeps existing installations upgradeable.
 
 ## Install
 
@@ -10,11 +10,11 @@ brew trust BGirginn/tap
 brew install --cask clipboardhistory
 ```
 
-Homebrew 6 requires explicit trust for third-party taps. If `/Applications/ClipboardHistory.app` was installed manually, quit ClipboardHistory and move the existing app bundle out of `/Applications` before installing the Cask. Homebrew will not overwrite an unmanaged application bundle; clipboard history stored under Application Support is preserved.
+Homebrew 6 requires explicit trust for third-party taps. If `/Applications/ClipboardHistory.app` was installed manually, quit it and move the existing app bundle out of `/Applications` before installing the Cask. Homebrew will not overwrite an unmanaged application bundle; clipboard history stored under Application Support is preserved.
 
-ClipboardHistory requires an Apple silicon Mac running macOS 14 Sonoma or later.
+CoreDeck requires an Apple silicon Mac running macOS 14.2 or later.
 
-The Community beta is self-signed and is not Apple-notarized. If macOS blocks the first launch, open Applications in Finder, Control-click ClipboardHistory, choose **Open**, and confirm. Do not remove quarantine with `xattr`.
+The Community beta is self-signed and is not Apple-notarized. If macOS blocks the first launch, open Applications in Finder, Control-click CoreDeck, choose **Open**, and confirm. Do not remove quarantine with `xattr`.
 
 ## Update
 

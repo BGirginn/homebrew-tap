@@ -24,6 +24,8 @@ cask "clipboardhistory" do
   ]
 
   caveats <<~EOS
+    CoreDeck requires macOS 14.2 or later. Homebrew's Sonoma requirement
+    checks only the major macOS release; the app enforces its own 14.2 minimum.
     CoreDeck Community Beta is self-signed and is not Apple-notarized.
     If macOS blocks the first launch, Control-click CoreDeck in Applications,
     choose Open, and confirm. Do not remove quarantine with xattr.

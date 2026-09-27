@@ -1,6 +1,6 @@
 cask "clipboardhistory" do
   version "1.0.0-beta.7"
-  sha256 "0d580ce924f0a1c3d57b14f104191bacd48ed9db9ac2949cea05a7774db36a98"
+  sha256 "8d7fa110a43952f33af03ceeee518684473b0c3d8fb2798cc74c880c49758029"
 
   url "https://github.com/BGirginn/ClipboardHistory/releases/download/v#{version}/CoreDeck-#{version}-arm64.zip"
   name "CoreDeck"
